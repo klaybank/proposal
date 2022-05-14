@@ -1,0 +1,20 @@
+{
+  "name": "proposal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ipfs-uploader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "upload": "./ipfs-uploader.js && curl https://gateway.pinata.cloud/ipfs/`cat ./ipfsHash` > ipfsDoc.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bs58": "^5.0.0",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1"
+  }
+}
