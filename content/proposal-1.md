@@ -16,18 +16,18 @@ KSD는 Kokoa Finance에서 개발한 크립토 자산 담보 기반의 탈중앙
 
 Klaybank에는 4만 달러 규모의 KSD Market이 형성되어 있으며 이는 다른 Asset보다 현저히 적은 수준의 Size입니다.
 
-![onchain_1](../images/proposal-1/onchain_1.png)
+![onchain_1](https://raw.githubusercontent.com/klaybank/proposal/main/images/proposal-1/onchain_1.png)
 
 총 발행량 대비 Klaybank에 예치된 자산의 비율을 보면 다른 Stable Asset에 비해 KSD가 현저하게 적은 수치를 가지고 있는 것을 확인할 수 있습니다. KSD를 담보로 사용할 수 있게 함으로써 Klaybank의 KSD Market Size를 키우는 것을 기대해볼 수 있습니다.
 
-![onchain_2](../images/proposal-1/onchain_2.png)
+![onchain_2](https://raw.githubusercontent.com/klaybank/proposal/main/images/proposal-1/onchain_2.png)
 
 위의 표에서 OUSDT, KDAI, OUSDC, KSD의 온체인 데이터를 확인할 수 있습니다. 위의 데이터는 각 자산들이 클레이튼 내에서 수치적으로 얼만큼의 지위를 가진지 간접적으로 보여줍니다. Total Supply로 Market Cap을, Holders와 Transfers로 각 자산의 탈중앙성 및 활용도를, Holders와 Volatility로 시장 위험성을 유추해볼 수 있습니다.
 아래는 OUSDC와 KSD의 홀더 온체인 정보입니다.
 
-![scope_usdc](../images/proposal-1/scope_ksd.png)
+![scope_usdc](https://raw.githubusercontent.com/klaybank/proposal/main/images/proposal-1/scope_ksd.png)
 
-![scope_ksd](../images/proposal-1/scope_usdc.png)
+![scope_ksd](https://raw.githubusercontent.com/klaybank/proposal/main/images/proposal-1/scope_usdc.png)
 
 대부분의 상위 홀더들은 타 디파이 프로토콜에서 활용되고 있습니다. KSD의 1위 홀더인 0x5e6215dfb33b1fb71e48000a47ed2ebb86d5bf3d 은 Kokoa finance의 Earn Contract인 dKSD 토큰입니다. 61.9%에 달하는 유동성이 한 곳에 집중되어 있으며 OUSDC가 다양한 곳에서 사용되는 것에 비해 상당히 사용처가 제한되어있음을 알 수 있습니다.
 위의 온체인 정보를 종합하면 OUSDC보다 많이 쓰이는 Stable Asset이지만 활용처가 다소 떨어지는 모습을 확인할 수 있습니다. Klaybank에서 KSD에 대한 담보사용 승인은 KSD의 활용처가 늘어남과 동시에 Klaybank Market Size 확대를 기대할 수 있습니다.
@@ -49,7 +49,7 @@ Klaybank에는 4만 달러 규모의 KSD Market이 형성되어 있으며 이는
 
 아래 표는 많은 사용자들이 자산의 대부분을 담보로 사용하고있는 극단적인 상황의 분포를 가정하며, 최악의 경우를 생각하기위한 분포입니다.
 
-![ratio](../images/proposal-1/ratio.png)
+![ratio](https://raw.githubusercontent.com/klaybank/proposal/main/images/proposal-1/ratio.png)
 
 LTV가 70%, Liquidation Threshold가 75%일때 최대 20%가 등락하면 담보잡힌 자산의 42%를 청산해야한다는 결과가 나옵니다. 이를 KSD양으로 환산하면 335,125개의 KSD를 청산해야합니다.
 
