@@ -28,7 +28,7 @@ $WEMIX는 블록체인 기반 게임 생태계를 제공하는 위믹스 생태�
 - 클레이튼 DEX 전체 $WEMIX 예치량은 280만 정도이며 이는 타 플랫폼에 예치된 수량에 비해 매우 부족합니다. (Kleva 1500만개, $WEMIX 스테이킹 3000만개)
 - (Dex 기준) 1시간 최대 변동폭 45% 정도로 이는 ETH와 비슷한 수준입니다.
   
-![market](../images/proposal-2/market.png)
+![market](https://raw.githubusercontent.com/klaybank/proposal/main/images/proposal-2/market.png)
 
 **Others**
 
@@ -53,7 +53,7 @@ Contract 및 Market 상황을 봤을 때 컨트랙트 취약성은 없지만 시
 
 5. 담보 비율 분포
    - $WEMIX의 최대 LTV의 N% 비율로 담보를 잡은 분포를 나타냅니다. 극단적인 상황을 가정한 분포입니다.
-     ![collateral_ratio](../images/proposal-2/collateral_ratio.png)
+     ![collateral_ratio](https://raw.githubusercontent.com/klaybank/proposal/main/images/proposal-2/collateral_ratio.png)
 
 LTV가 25%, Liquidation Threshold가 30%일 때 최대 30%가 등락하면 담보잡힌 자산의 29%를 청산해야한다는 결과가 나옵니다. 이를 $WEMIX 양으로 환산하면 228,571개의 $WEMIX를 청산해야합니다.
 
