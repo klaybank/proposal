@@ -25,7 +25,7 @@ BTC의 LTV를 45%에서 65%로 상향 조절합니다.
 
 5. 담보 비율 분포
     - $BTC의 최대 LTV의 N% 비율로 담보를 잡은 분포를 나타냅니다. 극단적인 상황을 가정한 분포입니다.
-      ![collateral_ratio](../images/proposal-4/collateral_ratio.png)
+      ![collateral_ratio](https://raw.githubusercontent.com/klaybank/proposal/main/images/proposal-4/collateral_ratio.png)
 
 LTV가 65%, Liquidation Threshold가 70%일 때 최대 20%가 등락하면 담보잡힌 자산의 14%를 청산해야한다는 결과가 나옵니다. 이를 $BTC 양으로 환산하면 1.57개의 $BTC를 청산해야합니다.
 
