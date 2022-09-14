@@ -31,7 +31,7 @@ WEMIX가 클레이뱅크에 상장하고 나서 두 달이 지났지만, 신규 
 5. **담보 비율 분포**
 
    $WEMIX 최대 LTV의 N% 비율로 담보를 잡은 분포를 나타냅니다. 극단적인 상황을 가정한 분포입니다.
-   ![collateral_ratio](../images/proposal-6/collateral_ratio.png)
+   ![collateral_ratio](https://raw.githubusercontent.com/klaybank/proposal/main/images/proposal-6/collateral_ratio.png)
 
 
 
